@@ -46,6 +46,159 @@ You must follow these rules:
 * Conditionals (`if / else`)
 * Basic object creation (`new ClassName()`)
 
+Perfect addition — this reinforces **real dev workflow habits** without adding technical overload.
+
+Here’s a **student-facing section** you can paste directly into the README. It’s written clearly, step-by-step, and assumes **beginner Git knowledge**.
+
+---
+
+## Git Workflow: Clone, Branch, and Commit
+
+You will complete this project using **Git and GitHub best practices**.
+
+Follow the steps below **exactly**.
+
+---
+
+### Clone the Repository
+
+1. Go to the GitHub repository for this assignment
+2. Click the **Code** button
+3. Copy the **HTTPS** link
+
+Open your terminal and run:
+
+```bash
+git clone <PASTE_REPO_URL_HERE>
+```
+
+Then move into the project folder:
+
+```bash
+cd mystery-receipt-generator
+```
+
+---
+
+### Create Your Own Branch
+
+You must work on **your own branch**, not `main`.
+
+Create a new branch using your name:
+
+```bash
+git checkout -b yourname-receipt
+```
+
+Example:
+
+```bash
+git checkout -b alex-receipt
+```
+
+To confirm you’re on the correct branch:
+
+```bash
+git branch
+```
+
+The branch with the `*` is your active branch.
+
+---
+
+### Make Changes to the Code
+
+* Open the project in IntelliJ
+* Write your code
+* Save your files often
+* Test your program before committing
+
+---
+
+### Stage and Commit Your Work
+
+Check which files have changed:
+
+```bash
+git status
+```
+
+Stage your changes:
+
+```bash
+git add .
+```
+
+Commit your work with a clear message:
+
+```bash
+git commit -m "Initial receipt generator logic"
+```
+
+ Good commit messages describe **what you changed**, not just “done”.
+
+---
+
+### Push Your Branch to GitHub
+
+Push your branch to GitHub:
+
+```bash
+git push origin yourname-receipt
+```
+
+Example:
+
+```bash
+git push origin alex-receipt
+```
+
+---
+
+###  Submission Instructions
+
+Your submission must include:
+
+* Your completed code on **your branch**
+* At least **3 meaningful commits**
+* A completed README with:
+
+  * How It Works
+  * Sample Output
+  * Java Concepts Used
+
+ **Do not merge into `main` unless instructed.**
+
+---
+
+### Commit Quality Expectations
+
+Your commits should:
+
+* Represent real progress
+* Have clear messages
+* Be spaced throughout your work (not one giant commit)
+
+Examples of good commit messages:
+
+* `Set up project structure`
+* `Add receipt calculations`
+* `Implement discount logic`
+* `Format receipt output`
+
+---
+
+### Why This Matters
+
+This workflow mirrors how developers work on real teams:
+
+* You don’t code directly on `main`
+* You work in branches
+* You commit progress clearly
+
+This is **portfolio behavior**, not just an assignment.
+
+
 ---
 
 ## Program Requirements
