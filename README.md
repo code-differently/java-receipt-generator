@@ -47,14 +47,6 @@ You must follow these rules:
 * Basic object creation (`new ClassName()`)
 ---
 
-## Git Workflow: Clone, Branch, and Commit
-
-You will complete this project using **Git and GitHub best practices**.
-
-Follow the steps below **exactly**.
-
----
-
 ### Clone the Repository
 
 1. Go to the GitHub repository for this assignment
@@ -98,55 +90,6 @@ git branch
 ```
 
 The branch with the `*` is your active branch.
-
----
-
-### Make Changes to the Code
-
-* Open the project in IntelliJ
-* Write your code
-* Save your files often
-* Test your program before committing
-
----
-
-### Stage and Commit Your Work
-
-Check which files have changed:
-
-```bash
-git status
-```
-
-Stage your changes:
-
-```bash
-git add .
-```
-
-Commit your work with a clear message:
-
-```bash
-git commit -m "Initial receipt generator logic"
-```
-
- Good commit messages describe **what you changed**, not just “done”.
-
----
-
-### Push Your Branch to GitHub
-
-Push your branch to GitHub:
-
-```bash
-git push origin yourname-receipt
-```
-
-Example:
-
-```bash
-git push origin alex-receipt
-```
 
 ---
 
@@ -208,7 +151,6 @@ Your program must ask the user for:
 
 Be careful when mixing numeric and text input.
 
----
 
 ### Randomized Data (`Random`)
 
@@ -312,18 +254,6 @@ You will be graded on **thoughtfulness and logic**, not complexity.
 
 ---
 
-## Suggested Class Design (Optional)
-
-You decide how to structure your program, but examples of acceptable responsibilities include:
-
-* A class that handles **user input**
-* A class that handles **calculations**
-* A class that formats or prints the receipt
-
-These are **suggestions**, not requirements.
-
----
-
 ## Submission Requirements
 
 ###  Code
@@ -331,26 +261,6 @@ These are **suggestions**, not requirements.
 * Multiple `.java` files
 * Program runs without crashing
 * Meets all project requirements
-
-###  README (This File)
-
-Add the following sections **below**:
-
-####  How It Works
-
-Briefly explain:
-
-* What your program does
-* How randomness is used
-
-####  Sample Output
-
-Paste **two different runs** of your program to show randomness.
-
-####  Java Concepts Used
-
-List the Java concepts you used and where.
-
 ---
 
 ## Grading Overview
@@ -368,15 +278,5 @@ You will be evaluated on:
 
 ---
 
-## Final Note
-
-This project is not about perfection.
-
-It’s about:
-
-* Thinking through a problem
-* Designing your own solution
-* Making intentional choices
-* Explaining your code
 
 
