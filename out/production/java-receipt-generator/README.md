@@ -45,6 +45,11 @@ You must follow these rules:
 * `String`
 * Conditionals (`if / else`)
 * Basic object creation (`new ClassName()`)
+
+Perfect addition — this reinforces **real dev workflow habits** without adding technical overload.
+
+Here’s a **student-facing section** you can paste directly into the README. It’s written clearly, step-by-step, and assumes **beginner Git knowledge**.
+
 ---
 
 ## Git Workflow: Clone, Branch, and Commit
