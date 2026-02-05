@@ -62,7 +62,7 @@ git clone <PASTE_REPO_URL_HERE>
 Then move into the project folder:
 
 ```bash
-cd mystery-receipt-generator
+cd java-receipt-generator
 ```
 
 ---
